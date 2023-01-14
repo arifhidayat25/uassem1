@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body {
+  padding-top: 70px;
+}
+.logo {
+  font-family: "Oswald", sans-serif;
+}
+.navbar {
+  display: flex;
+  height: 70px;
+}
+.navbar ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.navbar a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.cont {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.caro {
+  padding-top: 30px;
+}
+
+.carousel-item img {
+  height: 500px; /* Set the height of the images */
+  width: 100%; /* Make the images responsive */
+}
+.tengah {
+  box-shadow: 2px 2px 2px rgba(179, 173, 173, 0.8);
+  border: 1px dashed rgb(230, 221, 221);
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 70px;
+}
+.tengah p{
+  font-size: 26px;
+  padding-left: 30px;
+}
+
+.card a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+.metode {
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.metodee {
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 450px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.pay {
+  display: flex;
+  margin-bottom: 150px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.pay img {
+  margin: 10px;
+  height: 35px;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.social-media-icon {
+  font-size: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+a.social-media-icon:hover{
+    color: #222!important;
+}
+footer {
+  float: left;
+  width: 100%;
+  height: 150px;
+  color: rgb(41, 39, 37);
+}
+.tab img {
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 200%;
+  width: 300%;
+}
+.tab h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.tab h4 {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.tab h3 {
+  margin-top: 20px;
+}
+.detail {
+  height: 100vh;
+  margin-bottom: 50px;
+  float: right;
+  padding-left: 500px;
+}
+.wa {
+  width: 10px;
+  height: 10px;
+  font-size: 40px;
+  color: rgb(35, 218, 80);
+}
+.cart {
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.lain {
+  box-shadow: 2px 2px 2px rgba(179, 173, 173, 0.8);
+  border: 1px dashed rgb(230, 221, 221);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 50px;
+}
+.container{
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 50px;
+  position: relative;
+} 
+.card {
+  width: 120%;
+  height: auto;
+  margin: 10px ;
+  border-radius: 10px;
+  position: relative;
+}
+.head-card {
+  padding: 100%;
+}
+
+.card title {
+  display: flex;
+}
+.car {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+}
+.lain p{
+  font-size: 20px;
+  padding-left: 30px;
+}
+.contact {
+box-shadow: 2px 5px 2px rgba(54, 50, 50, 0.8);
+background-color: rgb(97, 208, 228);
+border-radius: 5px;
+padding-top: 10px;
+padding-left: 30px;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 70px;
+height: 50vh;
+}
+.contact a {
+  font-size: 40px;
+}
+@media screen and (max-width:1200px){ 
+  .tengah {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .cont {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width:720px){ 
+  body {
+    margin: auto;
+    width: auto;
+    min-height: 100vh;
+  }
+  .tengah {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .cont {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .caro {
+    margin: auto;
+  }
+  .carousel-item img {
+    height: 300px; /* Set the height of the images */
+    width: 100%; /* Make the images responsive */
+  }
+  .car {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10PX;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 60%;
+    grid-column: span 10;
+  }
+}
